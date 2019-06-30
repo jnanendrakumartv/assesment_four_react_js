@@ -1,0 +1,17 @@
+.editbutton{
+    background-color:rgb(131, 136, 145);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}
+.deletebutton{
+    background-color: rgb(131, 136, 145);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}
+
+
+

@@ -1,0 +1,37 @@
+.row{
+    padding-top: 60px;
+    background-color: rgb(204, 209, 217);
+    height: 750px;
+}
+
+.heading{
+    font-size: 40px;
+    
+}
+.textbox{
+    height:35px;
+    width: 330px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    margin:5px 0 10px 0;
+
+}
+.button{
+    background-color: rgb(43, 63, 143);
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+    height:45px;
+    width: 115px;
+    margin-top:10px;
+
+}
+.registerlink1{
+    color: rgb(43, 63, 143);
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+}

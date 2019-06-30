@@ -1,0 +1,19 @@
+.updateuserbutton{
+    background-color:  rgb(69, 133, 245);
+    font-weight: bold;
+    color: aliceblue;
+    height:45px;
+    width: 115px;
+    margin-top:10px;
+    border-radius: 15px;
+
+}
+.cancelbutton{
+    background-color: rgb(69, 133, 245);
+    font-weight: bold;
+    color: aliceblue;
+    height:45px;
+    width: 115px;
+    margin-top:10px;
+    border-radius: 15px;
+}
