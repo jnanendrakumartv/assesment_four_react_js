@@ -35,6 +35,9 @@
 .name{
     font-weight: bold;
 }
-.Home{
+.usernameprint{
+    color: red;
+}
+.passwordprint{
     color: red;
 }
