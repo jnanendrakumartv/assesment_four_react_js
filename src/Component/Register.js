@@ -7,7 +7,8 @@ class Register extends Component{
     constructor(props){
         super(props);
         this.state={ firstname:'',lastname:'',username:'',password:'',
-        firstnameA:'',lastnameA:'',user:'',pwd:'',array:[] 
+        firstnameA:'',lastnameA:'',user:'',pwd:'',array:[],
+       
         }
     }
     handleChange=(event)=>{
@@ -51,6 +52,7 @@ class Register extends Component{
             browserHistory.push("home");
         }
     }
+    
     render () {
         return(
             <div className="main">
@@ -75,9 +77,9 @@ class Register extends Component{
                   <input className="reginput" type="password"  name='password' onChange={this.handleChange}></input><br/>
                   <p className="color">{this.state.pwd}</p>
                   
-                  <button className="registerbutton" onClick={this.handleSubmit}><b>Register</b></button> <label onClick={this.onHandleClick} className="cancel_link"><b>Cancel</b></label>
+                  <button className="registerbutton" onClick={this.handleSubmit}><b>Register</b></button> <label  className="cancel_link"><b><a href="./home">Cancel</a></b></label>
                 </div>
-                <div className="col-sm-4 col-lg-4 col-md-4 col-xs-4"></div>
+                <div className="col-sm-4 col-lg-4 col-md-4 col-xs-4"></div>                                                     
                 </div>
 
             </div>
