@@ -22,18 +22,18 @@ class Home extends Component{
            
             if(this.state.username.length===0 && this.state.Password.length===0)
             {
-                this.setState({usernamerequired:  "Enter valid name",pre:"Enter valid apassword"})
+                this.setState({usernamerequired:  "User name must required",pre:"Password must required"})
            
             }
             else if(this.state.username.length===0 )
             {
-                this.setState({usernamerequired:"username required"})
+                this.setState({usernamerequired:"User name must required"})
                 return true;
             }  
             
             else if (this.state.Password.length===0)
             {
-                this.setState({pre:"password requierd"})
+                this.setState({pre:"Password must required"})
                 return true;
             }
             else
